@@ -46,7 +46,7 @@ This project is part of a technical screening task for a Frontend Technical Supp
 ## 🔗 Live Demo
 
 Click here to view the live project:
-[BOGO Offer Live Demo](<[https://your-username.github.io/bogo-offer-project/](https://anishkumar68.github.io/figma-frontend/)>)
+[BOGO Offer Live Demo](<(https://anishkumar68.github.io/figma-frontend/)>)
 
 ```
 ## 📃 License

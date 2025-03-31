@@ -51,7 +51,7 @@ This project is part of a technical screening task for a Frontend Technical Supp
 
 Once complete, this project is to be:
 
-- Hosted on [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/)
+- Hosted on (https://anishkumar68.github.io/figma-frontend/)
 - Shared with both the **repository link** and **live demo link**
 
 

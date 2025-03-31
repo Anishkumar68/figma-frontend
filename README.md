@@ -1,6 +1,12 @@
+Great catch! The error you're seeing is likely due to the triple backticks (` ``` `) used inside a Markdown block that's already enclosed in triple backticks — this creates a conflict.
+
+To fix this, we can **avoid nesting backticks** and instead write the code directly or escape them.
+
+Here’s the corrected version of your `README.md` content:
+
 ---
 
-### 📄 `README.md`
+### ✅ **Corrected `README.md`**
 
 ```markdown
 # 🛍️ BOGO Offer - Frontend Technical Support Task
@@ -38,7 +44,6 @@ This project is part of a technical screening task for a Frontend Technical Supp
 ---
 
 ## 📂 File Structure
-
 ```
 
 BOGO-Offer/
@@ -69,3 +74,6 @@ Once complete, this project is to be:
 ## 📃 License
 
 This project is submitted as part of a private technical screening and is not licensed for commercial use.
+```
+
+---

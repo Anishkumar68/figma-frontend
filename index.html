@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BOGO Offer</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="heading-line">
+				<div class="line"></div>
+				<h2>YAY! It’s BOGO</h2>
+				<div class="line"></div>
+			</div>
+
+			<!-- Reusable Product Box Template -->
+			<div class="box" data-unit="1">
+				<label>
+					<input type="radio" name="unit" value="1" />
+					<span class="unit-text"
+						>1 Unit <span class="tag pink">10% Off</span></span
+					>
+					<div class="pricing">
+						<span class="price">$10.00 USD</span>
+						<span class="original-price">$24.00 USD</span>
+					</div>
+					<p>Standard Price</p>
+				</label>
+			</div>
+
+			<div class="box popular" data-unit="2">
+				<label>
+					<input type="radio" name="unit" value="2" checked />
+					<span class="unit-text"
+						>2 Unit <span class="tag pink">20% Off</span></span
+					>
+					<div class="pricing">
+						<span class="price">$18.00 USD</span>
+						<span class="original-price">$24.00 USD</span>
+					</div>
+				</label>
+				<div class="badge">MOST POPULAR</div>
+			</div>
+
+			<div class="box" data-unit="3">
+				<label>
+					<input type="radio" name="unit" value="3" />
+					<span class="unit-text"
+						>3 Unit <span class="tag pink">30% Off</span></span
+					>
+					<div class="pricing">
+						<span class="price">$24.00 USD</span>
+						<span class="original-price">$24.00 USD</span>
+					</div>
+				</label>
+			</div>
+
+			<!-- Shared Options Template -->
+			<div id="options-template" class="options" style="display: none">
+				<div class="row">
+					<label>#1</label>
+					<select>
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+					</select>
+					<select>
+						<option>Black</option>
+						<option>Red</option>
+						<option>Blue</option>
+					</select>
+				</div>
+				<div class="row">
+					<label>#2</label>
+					<select>
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+					</select>
+					<select>
+						<option>Colour</option>
+						<option>Green</option>
+						<option>Pink</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="checkout">
+				<p class="free-delivery">Free Delivery</p>
+				<p class="total">Total : <strong id="total">$18.00 USD</strong></p>
+			</div>
+
+			<button class="add-to-cart">+ Add to Cart</button>
+			<p class="powered">@ Powered by Pumper</p>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

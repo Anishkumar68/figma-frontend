@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--bg-background: #222;
+	--text-primary: #ff5e92;
+	--bg-container: #fff;
+	--border-col: #ccc;
+	--text-secondary: #aaa;
+}
+
+body {
+	background-color: var(--bg-background);
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: var(--bg-container);
+	width: 350px;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.heading-line {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.heading-line h2 {
+	color: var(--text-primary);
+	font-size: 18px;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.heading-line .line {
+	flex: 1;
+	height: 1px;
+	background: var(--border-col);
+}
+
+.box {
+	border: 1px solid var(--border-col);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	position: relative;
+}
+
+.options {
+	display: none;
+	margin-top: 10px;
+	padding-left: 15px;
+	animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scaleY(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: scaleY(1);
+	}
+}
+
+.popular {
+	border-color: var(--text-primary);
+}
+
+.popular .badge {
+	position: absolute;
+	top: -12px;
+	right: 10px;
+	background: var(--text-primary);
+	color: white;
+	padding: 4px 8px;
+	font-size: 10px;
+	border-radius: 3px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+.unit-text {
+	font-weight: bold;
+}
+
+.tag {
+	font-size: 10px;
+	padding: 2px 5px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+
+.pink {
+	background-color: var(--text-primary);
+	color: white;
+}
+
+.pricing {
+	margin-top: 5px;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.original-price {
+	text-decoration: line-through;
+	color: var(--text-secondary);
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.row {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 8px;
+	align-items: center;
+}
+
+select {
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.checkout {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.free-delivery {
+	color: var(--text-primary);
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.total {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.add-to-cart {
+	width: 100%;
+	padding: 12px;
+	background: var(--text-primary);
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 4px;
+}
+
+.powered {
+	text-align: right;
+	font-size: 12px;
+	color: #888;
+}

@@ -58,9 +58,4 @@ Once complete, this project is to be:
 ## 📃 License
 
 This project is submitted as part of a private technical screening and is not licensed for commercial use.
-
-```
-
-```
-
 ```

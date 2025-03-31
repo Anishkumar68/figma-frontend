@@ -1,5 +1,3 @@
----
-
 ### **`README.md`**
 
 ```markdown
@@ -38,7 +36,6 @@ This project is part of a technical screening task for a Frontend Technical Supp
 ---
 
 ## 📂 File Structure
-
 ```
 
 BOGO-Offer/
@@ -73,5 +70,7 @@ This project is submitted as part of a private technical screening and is not li
 ```
 
 ---
+
+```
 
 ```

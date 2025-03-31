@@ -41,12 +41,12 @@ This project is part of a technical screening task for a Frontend Technical Supp
 
 ## 📸 Preview
 
-![BOGO Offer](![image.png])
+![BOGO Offer](image.png)
 
 ## 🔗 Live Demo
 
 Click here to view the live project:
-[BOGO Offer Live Demo](https://your-username.github.io/bogo-offer-project/)
+[BOGO Offer Live Demo](<[https://your-username.github.io/bogo-offer-project/](https://anishkumar68.github.io/figma-frontend/)>)
 
 ```
 ## 📃 License

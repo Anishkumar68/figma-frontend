@@ -39,18 +39,16 @@ This project is part of a technical screening task for a Frontend Technical Supp
 - └── README.md
 ```
 
-```
-
-
-
 ## 📸 Preview
 
 ![BOGO Offer](![image.png])
 
 ## 🔗 Live Demo
+
 Click here to view the live project:
 [BOGO Offer Live Demo](https://your-username.github.io/bogo-offer-project/)
 
+```
 ## 📃 License
 
 This project is submitted as part of a private technical screening and is not licensed for commercial use.

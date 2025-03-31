@@ -30,11 +30,14 @@ This project is part of a technical screening task for a Frontend Technical Supp
 ## 📂 File Structure
 ```
 
-BOGO-Offer/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+```
+---
+- BOGO-Offer/
+- ├── index.html
+- ├── style.css
+- ├── script.js
+- └── README.md
+```
 
 ```
 
@@ -42,9 +45,7 @@ BOGO-Offer/
 
 ## 📸 Preview
 
-![BOGO Offer](./image.png)
-
-
+![BOGO Offer](image.png)
 
 ## 📬 Submission
 

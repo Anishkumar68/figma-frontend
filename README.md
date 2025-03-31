@@ -45,16 +45,11 @@ This project is part of a technical screening task for a Frontend Technical Supp
 
 ## 📸 Preview
 
-![BOGO Offer](image.png)
+![BOGO Offer](![image.png])
 
-## 📬 Submission
-
-Once complete, this project is to be:
-
-- Hosted on [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/)
-- Shared with both the **repository link** and **live demo link**
-
-
+## 🔗 Live Demo
+Click here to view the live project:
+[BOGO Offer Live Demo](https://your-username.github.io/bogo-offer-project/)
 
 ## 📃 License
 
